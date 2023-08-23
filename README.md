@@ -27,12 +27,12 @@ In this project, you take a fairly complex application used to search a movie da
 #### Setup Redux
 > *The DOM and movie reducer has been provided for you, but it's up to to connect it to redux...*
 
-* [ ] In index.js, make use of the createStore method and Provider component to link your App to redux.
+* [x??] In index.js, make use of the createStore method and Provider component to link your App to redux.
 
 #### Connecting the Movie reducer
 > *Within the reducers folder is the movieReducers file. We have the state already setup it up here with some initial data. Let's connect that state to our component.*
 
-* [ ] **In movieReducer.js, make sure that we are setting our state by default to initialState.** Otherwise your state will not have the original structure it needs to function!
+* [x] **In movieReducer.js, make sure that we are setting our state by default to initialState.** Otherwise your state will not have the original structure it needs to function!
 
 * [ ] **The MovieList component prints all of our movies to the screen.** Use the connect method here to map the movies state value into props. Replace our static movie variable with that prop.
 
@@ -88,3 +88,4 @@ In this project, you take a fairly complex application used to search a movie da
 - Right now, you can favorite the same movie multiple times. Change the addFavorite action to only add in a new favorite if it doesn't already exist.
 - Add in the ability to remove a movie from the favorites list if that movie is removed from our main movie list.
 - Style to your heart's content ❤️
+
